@@ -386,7 +386,8 @@ body {
   .card {
     padding: 36px;
     width: 100%;
-    max-width: 400px;
+    min-width: 100%;
+    /* max-width: 400px; */
   }
   .card h3 {
     font-size: 16px;
@@ -631,9 +632,9 @@ body {
 
   .view-all-btn {
     margin-bottom: 40px;
-    padding: 10px 37px;
+    padding: 5px 37px;
     border-radius: 12px;
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 /* Footer Styles */
